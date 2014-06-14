@@ -5,7 +5,7 @@
 
 void syntax(struct t_token *tokens){
 	input = tokens;			// Tiramos los tokens a una variable global
-	gDebug = 1;			// Setear a 1 para full debug
+	gDebug = 0;			// Setear a 1 para full debug
 	gLinea = 1;
 	reported = 0;
 	accept = 1;
